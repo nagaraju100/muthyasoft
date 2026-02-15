@@ -1,6 +1,6 @@
-# Data Engineering Tutoring Platform
+# Muthya Soft - Data Engineering Platform
 
-A professional landing page for data engineering tutoring services by Nagaraju Gajula.
+A professional multi-page website for data engineering tutoring services by Nagaraju Gajula.
 
 ## 🚀 Quick Start
 
@@ -165,10 +165,11 @@ Edit `src/app/layout.tsx` to change:
 
 ## 🔗 Social Links
 
-Update your social media links in `src/app/page.tsx`:
-- YouTube: TechGeniusMinds
-- Medium: @nagaraju100
-- LinkedIn: nagaraju-gajula
+Social media links throughout the site:
+- YouTube: TechGeniusMinds (https://www.youtube.com/@TechGeniusMinds)
+- Medium: @nagarajugajula100 (https://medium.com/@nagarajugajula100)
+- LinkedIn: https://www.linkedin.com/in/nagaraju-gajula-0a408427/
+- Email: nagarajugajula100@gmail.com (for contact form)
 
 ## 📊 Performance
 

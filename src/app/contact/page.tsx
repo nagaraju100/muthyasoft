@@ -45,7 +45,7 @@ export default function Contact() {
             </a>
 
             <a
-              href="https://medium.com/@nagaraju100"
+              href="https://medium.com/@nagarajugajula100"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition"
@@ -53,12 +53,12 @@ export default function Contact() {
               <div className="text-4xl mb-4">✍️</div>
               <h3 className="text-xl font-bold mb-2">Medium</h3>
               <p className="text-gray-700 dark:text-gray-300">
-                @nagaraju100
+                @nagarajugajula100
               </p>
             </a>
 
             <a
-              href="https://www.linkedin.com/in/nagaraju-gajula/"
+              href="https://www.linkedin.com/in/nagaraju-gajula-0a408427/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg text-center hover:shadow-xl transition"

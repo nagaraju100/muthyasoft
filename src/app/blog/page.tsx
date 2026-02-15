@@ -21,7 +21,7 @@ export default function Blog() {
               Read my articles on Medium covering data engineering best practices, real-world solutions, and lessons learned from production systems.
             </p>
             <a
-              href="https://medium.com/@nagaraju100"
+              href="https://medium.com/@nagarajugajula100"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-gray-900 dark:bg-white text-white dark:text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-800 dark:hover:bg-gray-100 transition"

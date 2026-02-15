@@ -14,10 +14,12 @@ Step-by-step guide to deploy your landing page to Vercel.
 ## Step 1: Get Web3Forms Access Key
 
 1. Go to https://web3forms.com
-2. Enter your email address
+2. Enter your email address: **nagarajugajula100@gmail.com**
 3. Click "Get Access Key"
 4. Check your email for the access key
 5. Copy the access key (you'll need it in Step 4)
+
+**IMPORTANT**: Use nagarajugajula100@gmail.com when registering so contact form submissions will be sent to that email.
 
 **Example key format**: `abc123def-4567-8901-2345-678901234567`
 

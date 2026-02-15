@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Nagaraju Gajula</h3>
+            <h3 className="text-xl font-bold mb-4">Muthya Soft</h3>
             <p className="text-gray-400">
               Data Engineering Expert & Tutor
             </p>
@@ -73,7 +73,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://medium.com/@nagaraju100"
+                  href="https://medium.com/@nagarajugajula100"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition"
@@ -83,7 +83,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/nagaraju-gajula/"
+                  href="https://www.linkedin.com/in/nagaraju-gajula-0a408427/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition"
@@ -96,7 +96,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Nagaraju Gajula. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Muthya Soft. All rights reserved.</p>
         </div>
       </div>
     </footer>

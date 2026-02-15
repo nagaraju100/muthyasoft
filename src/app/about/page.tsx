@@ -82,7 +82,7 @@ export default function About() {
               YouTube
             </a>
             <a
-              href="https://medium.com/@nagaraju100"
+              href="https://medium.com/@nagarajugajula100"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-900 dark:bg-white text-white dark:text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 dark:hover:bg-gray-100 transition"
@@ -90,7 +90,7 @@ export default function About() {
               Medium
             </a>
             <a
-              href="https://www.linkedin.com/in/nagaraju-gajula/"
+              href="https://www.linkedin.com/in/nagaraju-gajula-0a408427/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 transition"

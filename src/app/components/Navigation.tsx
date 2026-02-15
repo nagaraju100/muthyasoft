@@ -24,7 +24,7 @@ export default function Navigation() {
           {/* Logo/Brand */}
           <Link href="/" className="flex items-center">
             <span className="text-xl font-bold text-blue-600">
-              Nagaraju Gajula
+              Muthya Soft
             </span>
           </Link>
 
