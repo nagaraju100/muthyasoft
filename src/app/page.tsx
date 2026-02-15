@@ -33,7 +33,15 @@ export default function Home() {
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12">What I Offer</h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <Link href="/services" className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-xl transition">
+              <div className="text-4xl mb-4">💼</div>
+              <h3 className="text-2xl font-bold mb-3">Services</h3>
+              <p className="text-gray-700 dark:text-gray-300">
+                Professional data engineering services including pipeline development, consulting, and cloud migration.
+              </p>
+            </Link>
+
             <Link href="/tutoring" className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-xl transition">
               <div className="text-4xl mb-4">🎓</div>
               <h3 className="text-2xl font-bold mb-3">Tutoring</h3>
