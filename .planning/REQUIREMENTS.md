@@ -74,28 +74,28 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| DESIGN-01 | TBD | Pending |
-| DESIGN-02 | TBD | Pending |
-| DESIGN-03 | TBD | Pending |
-| DESIGN-04 | TBD | Pending |
-| CONTENT-01 | TBD | Pending |
-| CONTENT-02 | TBD | Pending |
-| CONTENT-03 | TBD | Pending |
-| CONTENT-04 | TBD | Pending |
-| CONTACT-01 | TBD | Pending |
-| CONTACT-02 | TBD | Pending |
-| CONTACT-03 | TBD | Pending |
-| CONTACT-04 | TBD | Pending |
-| TECH-01 | TBD | Pending |
-| TECH-02 | TBD | Pending |
-| TECH-03 | TBD | Pending |
-| TECH-04 | TBD | Pending |
+| DESIGN-01 | Phase 2 | Pending |
+| DESIGN-02 | Phase 2 | Pending |
+| DESIGN-03 | Phase 2 | Pending |
+| DESIGN-04 | Phase 2 | Pending |
+| CONTENT-01 | Phase 2 | Pending |
+| CONTENT-02 | Phase 2 | Pending |
+| CONTENT-03 | Phase 2 | Pending |
+| CONTENT-04 | Phase 2 | Pending |
+| CONTACT-01 | Phase 3 | Pending |
+| CONTACT-02 | Phase 3 | Pending |
+| CONTACT-03 | Phase 3 | Pending |
+| CONTACT-04 | Phase 3 | Pending |
+| TECH-01 | Phase 1 | Pending |
+| TECH-02 | Phase 3 | Pending |
+| TECH-03 | Phase 4 | Pending |
+| TECH-04 | Phase 3 | Pending |
 
 **Coverage:**
 - v1 requirements: 16 total
-- Mapped to phases: 0 (pending roadmap creation)
-- Unmapped: 16 ⚠️
+- Mapped to phases: 16/16 ✓
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-15*
-*Last updated: 2026-02-15 after initial definition*
+*Last updated: 2026-02-15 after roadmap creation*
