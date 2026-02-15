@@ -1,8 +1,8 @@
 export default function Blog() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-violet-50 to-purple-50 dark:from-slate-900 dark:via-violet-950 dark:to-purple-950">
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20 px-4">
+      <section className="bg-gradient-to-br from-violet-600 via-purple-600 to-fuchsia-600 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">Blog & Articles</h1>
           <p className="text-xl text-blue-100">

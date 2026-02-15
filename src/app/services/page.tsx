@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 export default function Services() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 dark:from-slate-900 dark:via-blue-950 dark:to-indigo-950">
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20 px-4">
+      <section className="bg-gradient-to-br from-indigo-600 via-blue-600 to-cyan-600 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">Our Services</h1>
           <p className="text-xl text-blue-100">
@@ -14,11 +14,11 @@ export default function Services() {
       </section>
 
       {/* Main Services */}
-      <section className="py-16 px-4">
+      <section className="py-16 px-4 bg-white dark:bg-slate-900">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8">
             {/* 1-on-1 Tutoring */}
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
+            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-blue-100 dark:border-blue-800 hover:scale-105">
               <div className="text-4xl mb-4">🎓</div>
               <h2 className="text-2xl font-bold mb-4">1-on-1 Tutoring</h2>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
@@ -40,7 +40,7 @@ export default function Services() {
             </div>
 
             {/* Data Pipeline Development */}
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-purple-100 dark:border-purple-800 hover:scale-105">
               <div className="text-4xl mb-4">🔧</div>
               <h2 className="text-2xl font-bold mb-4">Data Pipeline Development</h2>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
@@ -62,7 +62,7 @@ export default function Services() {
             </div>
 
             {/* Cloud Migration */}
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
+            <div className="bg-gradient-to-br from-cyan-50 to-blue-50 dark:from-cyan-900/20 dark:to-blue-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-cyan-100 dark:border-cyan-800 hover:scale-105">
               <div className="text-4xl mb-4">☁️</div>
               <h2 className="text-2xl font-bold mb-4">Cloud Migration & Setup</h2>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
@@ -84,7 +84,7 @@ export default function Services() {
             </div>
 
             {/* Technical Consulting */}
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
+            <div className="bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-900/20 dark:to-orange-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-amber-100 dark:border-amber-800 hover:scale-105">
               <div className="text-4xl mb-4">💡</div>
               <h2 className="text-2xl font-bold mb-4">Technical Consulting</h2>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
@@ -106,7 +106,7 @@ export default function Services() {
             </div>
 
             {/* Data Engineering Training */}
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
+            <div className="bg-gradient-to-br from-emerald-50 to-teal-50 dark:from-emerald-900/20 dark:to-teal-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-emerald-100 dark:border-emerald-800 hover:scale-105">
               <div className="text-4xl mb-4">👥</div>
               <h2 className="text-2xl font-bold mb-4">Corporate Training</h2>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
@@ -128,7 +128,7 @@ export default function Services() {
             </div>
 
             {/* Code Review & Optimization */}
-            <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
+            <div className="bg-gradient-to-br from-rose-50 to-red-50 dark:from-rose-900/20 dark:to-red-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-rose-100 dark:border-rose-800 hover:scale-105">
               <div className="text-4xl mb-4">🔍</div>
               <h2 className="text-2xl font-bold mb-4">Code Review & Optimization</h2>
               <p className="text-gray-700 dark:text-gray-300 mb-4">
@@ -153,7 +153,7 @@ export default function Services() {
       </section>
 
       {/* Technologies We Work With */}
-      <section className="py-16 px-4 bg-gray-50 dark:bg-gray-900">
+      <section className="py-16 px-4 bg-gradient-to-br from-slate-100 via-gray-100 to-zinc-100 dark:from-slate-800 dark:via-gray-800 dark:to-zinc-800">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12">Technologies We Work With</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
@@ -180,7 +180,7 @@ export default function Services() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-16 px-4">
+      <section className="py-16 px-4 bg-white dark:bg-slate-900">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12">Why Choose Muthya Soft?</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -210,7 +210,7 @@ export default function Services() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 px-4 bg-blue-600 text-white">
+      <section className="py-16 px-4 bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Get Started?</h2>
           <p className="text-xl mb-8">

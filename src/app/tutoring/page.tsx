@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 export default function Tutoring() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-purple-50 to-pink-50 dark:from-slate-900 dark:via-purple-950 dark:to-pink-950">
       {/* Hero */}
-      <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20 px-4">
+      <section className="bg-gradient-to-br from-purple-600 via-pink-600 to-rose-600 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">Personalized Data Engineering Tutoring</h1>
           <p className="text-xl text-blue-100">
