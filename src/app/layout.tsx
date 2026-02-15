@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
-  title: "Data Engineering Tutoring - Learn from Industry Expert",
-  description: "Get personalized data engineering tutoring from an experienced industry practitioner. Master modern data stacks, pipelines, and real-world production patterns.",
+  title: "Nagaraju Gajula - Data Engineering Expert",
+  description: "Data Engineering tutorials, blog posts, and personalized tutoring. Learn Python, PySpark, Databricks, Airflow, and cloud platforms from an industry expert.",
 };
 
 export default function RootLayout({
@@ -14,7 +16,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
+        <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   );
