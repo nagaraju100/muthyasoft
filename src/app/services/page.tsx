@@ -8,7 +8,7 @@ export default function Services() {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">Our Services</h1>
           <p className="text-xl text-blue-100">
-            Comprehensive data engineering solutions tailored to your needs
+            Comprehensive data engineering and AI automation solutions tailored to your needs
           </p>
         </div>
       </section>
@@ -17,6 +17,94 @@ export default function Services() {
       <section className="py-16 px-4 bg-white dark:bg-slate-900">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8">
+            {/* AI Creator's Brief */}
+            <div className="bg-gradient-to-br from-violet-50 to-purple-50 dark:from-violet-900/20 dark:to-purple-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-violet-100 dark:border-violet-800 hover:scale-105">
+              <div className="text-4xl mb-4">📰</div>
+              <h2 className="text-2xl font-bold mb-4">AI Creator's Brief</h2>
+              <p className="text-gray-700 dark:text-gray-300 mb-4">
+                Daily curated content and insights for content creators leveraging AI.
+              </p>
+              <ul className="space-y-2 text-gray-700 dark:text-gray-300 mb-6">
+                <li>• AI industry news & trends</li>
+                <li>• Content creation ideas & strategies</li>
+                <li>• AI tools for creators</li>
+                <li>• Platform-specific insights</li>
+                <li>• Trending topics & viral content analysis</li>
+              </ul>
+              <Link
+                href="/contact"
+                className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+              >
+                Subscribe Now
+              </Link>
+            </div>
+
+            {/* AI SaaS Builder */}
+            <div className="bg-gradient-to-br from-sky-50 to-cyan-50 dark:from-sky-900/20 dark:to-cyan-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-sky-100 dark:border-sky-800 hover:scale-105">
+              <div className="text-4xl mb-4">🤖</div>
+              <h2 className="text-2xl font-bold mb-4">AI SaaS Builder</h2>
+              <p className="text-gray-700 dark:text-gray-300 mb-4">
+                Build and launch AI-powered SaaS products with expert guidance and tools.
+              </p>
+              <ul className="space-y-2 text-gray-700 dark:text-gray-300 mb-6">
+                <li>• AI model integration</li>
+                <li>• Full-stack development</li>
+                <li>• API design & development</li>
+                <li>• Scalable infrastructure setup</li>
+                <li>• Product launch strategy</li>
+              </ul>
+              <Link
+                href="/contact"
+                className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+              >
+                Build Your SaaS
+              </Link>
+            </div>
+
+            {/* AI Automation Agency Academy */}
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-green-100 dark:border-green-800 hover:scale-105">
+              <div className="text-4xl mb-4">🎯</div>
+              <h2 className="text-2xl font-bold mb-4">AI Automation Agency Academy</h2>
+              <p className="text-gray-700 dark:text-gray-300 mb-4">
+                Learn to build and scale your own AI automation agency from scratch.
+              </p>
+              <ul className="space-y-2 text-gray-700 dark:text-gray-300 mb-6">
+                <li>• Agency business model training</li>
+                <li>• Client acquisition strategies</li>
+                <li>• AI automation workflows</li>
+                <li>• Service delivery frameworks</li>
+                <li>• Scaling & operations management</li>
+              </ul>
+              <Link
+                href="/contact"
+                className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+              >
+                Join Academy
+              </Link>
+            </div>
+
+            {/* AI Consulting Academy */}
+            <div className="bg-gradient-to-br from-fuchsia-50 to-pink-50 dark:from-fuchsia-900/20 dark:to-pink-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-fuchsia-100 dark:border-fuchsia-800 hover:scale-105">
+              <div className="text-4xl mb-4">💼</div>
+              <h2 className="text-2xl font-bold mb-4">AI Consulting Academy</h2>
+              <p className="text-gray-700 dark:text-gray-300 mb-4">
+                Master AI consulting and help businesses implement AI solutions effectively.
+              </p>
+              <ul className="space-y-2 text-gray-700 dark:text-gray-300 mb-6">
+                <li>• AI strategy development</li>
+                <li>• Consulting methodology training</li>
+                <li>• Enterprise AI implementation</li>
+                <li>• ROI analysis & reporting</li>
+                <li>• Client relationship management</li>
+              </ul>
+              <Link
+                href="/contact"
+                className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+              >
+                Start Learning
+              </Link>
+            </div>
+
             {/* 1-on-1 Tutoring */}
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-blue-100 dark:border-blue-800 hover:scale-105">
               <div className="text-4xl mb-4">🎓</div>
@@ -105,7 +193,7 @@ export default function Services() {
               </Link>
             </div>
 
-            {/* Data Engineering Training */}
+            {/* Corporate Training */}
             <div className="bg-gradient-to-br from-emerald-50 to-teal-50 dark:from-emerald-900/20 dark:to-teal-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-emerald-100 dark:border-emerald-800 hover:scale-105">
               <div className="text-4xl mb-4">👥</div>
               <h2 className="text-2xl font-bold mb-4">Corporate Training</h2>
@@ -170,6 +258,12 @@ export default function Services() {
               'Docker',
               'Kubernetes',
               'Terraform',
+              'OpenAI',
+              'LangChain',
+              'Claude AI',
+              'ChatGPT',
+              'Next.js',
+              'React',
             ].map((tech) => (
               <div key={tech} className="bg-white dark:bg-gray-800 p-4 rounded-lg text-center shadow">
                 <p className="font-semibold">{tech}</p>
