@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-12 px-4">
       <div className="max-w-6xl mx-auto">
-        <div className="grid md:grid-cols-4 gap-8 mb-8">
+        <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
             <h3 className="text-xl font-bold mb-4">Muthya Soft</h3>
@@ -50,31 +50,9 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Resources</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/videos" className="text-gray-400 hover:text-white transition">
-                  Videos
-                </Link>
-              </li>
-              <li>
                 <Link href="/blog" className="text-gray-400 hover:text-white transition">
                   Blog
                 </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Social */}
-          <div>
-            <h4 className="font-semibold mb-4">Connect</h4>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="https://www.youtube.com/@TechGeniusMinds"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition"
-                >
-                  YouTube
-                </a>
               </li>
             </ul>
           </div>

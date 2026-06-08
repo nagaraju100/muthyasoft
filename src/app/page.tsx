@@ -41,7 +41,7 @@ export default function Home() {
       <section className="py-16 px-4 bg-white dark:bg-slate-900">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12">What We Offer</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             <Link href="/services" className="group bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-blue-100 dark:border-blue-800 hover:scale-105">
               <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">💼</div>
               <h3 className="text-2xl font-bold mb-3 text-blue-700 dark:text-blue-300">Services</h3>
@@ -55,14 +55,6 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-3 text-purple-700 dark:text-purple-300">Tutoring</h3>
               <p className="text-gray-700 dark:text-gray-300">
                 Personalized 1-on-1 tutoring for data engineering topics. Learn at your own pace with industry-tested knowledge.
-              </p>
-            </Link>
-
-            <Link href="/videos" className="group bg-gradient-to-br from-red-50 to-orange-50 dark:from-red-900/20 dark:to-orange-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-red-100 dark:border-red-800 hover:scale-105">
-              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">📹</div>
-              <h3 className="text-2xl font-bold mb-3 text-red-700 dark:text-red-300">Videos</h3>
-              <p className="text-gray-700 dark:text-gray-300">
-                Free tutorials on TechGeniusMinds YouTube channel covering data engineering, Python, PySpark, and more.
               </p>
             </Link>
 

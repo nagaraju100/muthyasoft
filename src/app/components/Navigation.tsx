@@ -12,7 +12,6 @@ export default function Navigation() {
     { name: 'Home', path: '/' },
     { name: 'Services', path: '/services' },
     { name: 'Tutoring', path: '/tutoring' },
-    { name: 'Videos', path: '/videos' },
     { name: 'Blog', path: '/blog' },
     { name: 'About', path: '/about' },
     { name: 'Contact', path: '/contact' },

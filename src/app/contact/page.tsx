@@ -26,27 +26,6 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Other Ways to Connect */}
-      <section className="py-16 px-4 bg-gray-50 dark:bg-gray-900">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-12">Other Ways to Connect</h2>
-          <div className="flex justify-center">
-            <a
-              href="https://www.youtube.com/@TechGeniusMinds"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg max-w-sm w-full hover:shadow-xl transition"
-            >
-              <div className="text-4xl mb-4">📹</div>
-              <h3 className="text-xl font-bold mb-2">YouTube Channel</h3>
-              <p className="text-gray-700 dark:text-gray-300">
-                TechGeniusMinds
-              </p>
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ or Quick Info */}
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">

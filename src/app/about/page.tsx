@@ -59,28 +59,10 @@ export default function About() {
                 <ul className="space-y-2 ml-4 list-disc">
                   <li><strong>Real Production Experience</strong> - We teach patterns built for handling terabytes of data at enterprise scale</li>
                   <li><strong>Deep Technical Knowledge</strong> - Over 10 years working with modern data engineering stack</li>
-                  <li><strong>Active Technical Community</strong> - Providing free, practical tutorials on YouTube (TechGeniusMinds)</li>
                   <li><strong>Industry-Tested Practices</strong> - Focus on what actually works in production environments, not just code snippets</li>
                 </ul>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Connect Section */}
-      <section className="py-16 px-4 bg-gray-50 dark:bg-gray-900">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8">Connect With Us</h2>
-          <div className="flex flex-wrap justify-center gap-6">
-            <a
-              href="https://www.youtube.com/@TechGeniusMinds"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition"
-            >
-              YouTube Channel
-            </a>
           </div>
         </div>
       </section>
