@@ -4,9 +4,9 @@ export default function About() {
       {/* Hero */}
       <section className="bg-gradient-to-br from-amber-600 via-orange-600 to-red-600 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-6">About Me</h1>
+          <h1 className="text-5xl font-bold mb-6">About Muthya Soft</h1>
           <p className="text-xl text-blue-100">
-            Manager-level Data Engineer with 10+ years of enterprise experience
+            Enterprise-level Data Engineering Expertise & Practical Mentorship
           </p>
         </div>
       </section>
@@ -15,24 +15,24 @@ export default function About() {
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
-            <h2 className="text-3xl font-bold mb-4">Nagaraju Gajula</h2>
+            <h2 className="text-3xl font-bold mb-4">Our Expertise</h2>
             <p className="text-lg mb-6 text-gray-700 dark:text-gray-300">
-              I'm a passionate data engineer with over a decade of experience building large-scale data systems at leading technology companies.
+              Muthya Soft is dedicated to empowering engineers with production-grade data skills. Our instructors bring over a decade of real-world experience building large-scale data platforms for enterprise companies.
             </p>
 
             <div className="space-y-6 text-gray-700 dark:text-gray-300">
               <div>
-                <h3 className="font-semibold text-xl mb-3">Professional Experience</h3>
-                <ul className="space-y-2 ml-4">
-                  <li><strong>LatentView Analytics</strong> - Manager, Data Engineer (5+ years)</li>
-                  <li><strong>YASKAWA India</strong> - Principal Data Architect</li>
-                  <li><strong>Goldman Sachs</strong> - Data Engineering</li>
-                  <li><strong>Texas Instruments</strong> - Software Development</li>
+                <h3 className="font-semibold text-xl mb-3">Enterprise Industry Experience</h3>
+                <ul className="space-y-2 ml-4 list-disc">
+                  <li>Data Engineering & Pipeline Design for <strong>Global Investment Banks</strong></li>
+                  <li>Solution Architecture & Consulting for <strong>Leading Analytics firms</strong></li>
+                  <li>Data Infrastructure Design for <strong>Industrial Automation leaders</strong></li>
+                  <li>Software & Platform Engineering at <strong>Semiconductor Pioneers</strong></li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="font-semibold text-xl mb-3">Expertise</h3>
+                <h3 className="font-semibold text-xl mb-3">Technical Domain Focus</h3>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <h4 className="font-semibold mb-2">Core Technologies</h4>
@@ -55,12 +55,12 @@ export default function About() {
               </div>
 
               <div>
-                <h3 className="font-semibold text-xl mb-3">Why Work With Me?</h3>
-                <ul className="space-y-2 ml-4">
-                  <li><strong>Real Production Experience</strong> - I've built and maintained data systems processing terabytes of data at enterprise scale</li>
+                <h3 className="font-semibold text-xl mb-3">Why Work With Us?</h3>
+                <ul className="space-y-2 ml-4 list-disc">
+                  <li><strong>Real Production Experience</strong> - We teach patterns built for handling terabytes of data at enterprise scale</li>
                   <li><strong>Deep Technical Knowledge</strong> - Over 10 years working with modern data engineering stack</li>
-                  <li><strong>Teaching Experience</strong> - Active on YouTube (TechGeniusMinds) and Medium with practical tutorials</li>
-                  <li><strong>Industry-Tested Practices</strong> - I teach what actually works in production, not just theory</li>
+                  <li><strong>Active Technical Community</strong> - Providing free, practical tutorials on YouTube (TechGeniusMinds)</li>
+                  <li><strong>Industry-Tested Practices</strong> - Focus on what actually works in production environments, not just code snippets</li>
                 </ul>
               </div>
             </div>
@@ -71,7 +71,7 @@ export default function About() {
       {/* Connect Section */}
       <section className="py-16 px-4 bg-gray-50 dark:bg-gray-900">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8">Connect With Me</h2>
+          <h2 className="text-3xl font-bold mb-8">Connect With Us</h2>
           <div className="flex flex-wrap justify-center gap-6">
             <a
               href="https://www.youtube.com/@TechGeniusMinds"
@@ -79,23 +79,7 @@ export default function About() {
               rel="noopener noreferrer"
               className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 transition"
             >
-              YouTube
-            </a>
-            <a
-              href="https://medium.com/@nagarajugajula100"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-gray-900 dark:bg-white text-white dark:text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 dark:hover:bg-gray-100 transition"
-            >
-              Medium
-            </a>
-            <a
-              href="https://www.linkedin.com/in/nagaraju-gajula-0a408427/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 transition"
-            >
-              LinkedIn
+              YouTube Channel
             </a>
           </div>
         </div>
@@ -106,13 +90,13 @@ export default function About() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Learn?</h2>
           <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">
-            Let's discuss how I can help you achieve your data engineering goals
+            Let's discuss how we can help you achieve your data engineering goals.
           </p>
           <a
             href="/contact"
             className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition"
           >
-            Contact Me
+            Contact Us
           </a>
         </div>
       </section>

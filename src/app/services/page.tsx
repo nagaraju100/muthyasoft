@@ -282,7 +282,7 @@ export default function Services() {
               <div className="text-4xl mb-4">⭐</div>
               <h3 className="text-xl font-bold mb-3">10+ Years Experience</h3>
               <p className="text-gray-700 dark:text-gray-300">
-                Proven track record at Goldman Sachs, LatentView Analytics, and more
+                Proven track record with major financial institutions, tech leaders, and analytics consultancies
               </p>
             </div>
             <div className="text-center">

@@ -81,7 +81,7 @@ export default function ContactForm() {
           name="message"
           rows={5}
           className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700"
-          placeholder="Tell me about your learning goals..."
+          placeholder="Describe your learning goals..."
           required
         ></textarea>
       </div>

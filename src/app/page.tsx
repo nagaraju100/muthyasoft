@@ -17,7 +17,7 @@ export default function Home() {
             Master Data Engineering with Industry Expertise
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-blue-100">
-            Learn from a Manager-level Data Engineer with 10+ years at Goldman Sachs, LatentView Analytics, and more
+            Learn from seasoned Data Engineers and Architects with 10+ years of enterprise experience
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -40,7 +40,7 @@ export default function Home() {
       {/* Quick Overview */}
       <section className="py-16 px-4 bg-white dark:bg-slate-900">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12">What I Offer</h2>
+          <h2 className="text-4xl font-bold text-center mb-12">What We Offer</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Link href="/services" className="group bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-blue-100 dark:border-blue-800 hover:scale-105">
               <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">💼</div>
@@ -70,7 +70,7 @@ export default function Home() {
               <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">✍️</div>
               <h3 className="text-2xl font-bold mb-3 text-emerald-700 dark:text-emerald-300">Blog</h3>
               <p className="text-gray-700 dark:text-gray-300">
-                In-depth articles on Medium about data engineering best practices, patterns, and real-world solutions.
+                In-depth articles about data engineering best practices, patterns, and real-world solutions.
               </p>
             </Link>
           </div>
@@ -80,7 +80,7 @@ export default function Home() {
       {/* Technologies */}
       <section className="py-16 px-4 bg-gradient-to-br from-slate-100 via-gray-100 to-zinc-100 dark:from-slate-800 dark:via-gray-800 dark:to-zinc-800">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Technologies I Work With</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Technologies We Work With</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {['Python', 'PySpark', 'Databricks', 'Apache Airflow', 'AWS', 'GCP', 'Azure', 'SQL'].map((tech, index) => (
               <div key={tech} className={`bg-white dark:bg-slate-700 p-6 rounded-xl text-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 border-t-4 ${
@@ -107,7 +107,7 @@ export default function Home() {
             href="/contact"
             className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition"
           >
-            Contact Me
+            Contact Us
           </Link>
         </div>
       </section>

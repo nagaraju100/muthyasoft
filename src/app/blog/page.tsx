@@ -11,23 +11,18 @@ export default function Blog() {
         </div>
       </section>
 
-      {/* Medium Blog */}
+      {/* Coming Soon Blog Section */}
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg text-center">
             <div className="text-6xl mb-6">✍️</div>
-            <h2 className="text-3xl font-bold mb-4">Medium Blog</h2>
-            <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">
-              Read my articles on Medium covering data engineering best practices, real-world solutions, and lessons learned from production systems.
+            <h2 className="text-3xl font-bold mb-4">Technical Blog</h2>
+            <p className="text-xl text-gray-700 dark:text-gray-300 mb-4">
+              Our engineering team is preparing in-depth articles covering data engineering best practices, real-world solutions, and lessons learned from production systems.
             </p>
-            <a
-              href="https://medium.com/@nagarajugajula100"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-gray-900 dark:bg-white text-white dark:text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-800 dark:hover:bg-gray-100 transition"
-            >
-              Visit Medium Blog
-            </a>
+            <p className="text-amber-600 dark:text-amber-400 font-semibold text-lg">
+              Coming Soon
+            </p>
           </div>
         </div>
       </section>
@@ -35,7 +30,7 @@ export default function Blog() {
       {/* Article Topics */}
       <section className="py-16 px-4 bg-gray-50 dark:bg-gray-900">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12">Topics I Write About</h2>
+          <h2 className="text-4xl font-bold text-center mb-12">Topics We Cover</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               'Data Pipeline Architecture',

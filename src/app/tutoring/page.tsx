@@ -8,7 +8,7 @@ export default function Tutoring() {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">Personalized Data Engineering Tutoring</h1>
           <p className="text-xl text-blue-100">
-            1-on-1 mentorship to master modern data engineering from an industry expert
+            1-on-1 mentorship to master modern data engineering from industry experts
           </p>
         </div>
       </section>
@@ -127,13 +127,13 @@ export default function Tutoring() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Get Started?</h2>
           <p className="text-xl mb-8">
-            Contact me to discuss your learning goals and schedule a session
+            Contact us to discuss your learning goals and schedule a session
           </p>
           <Link
             href="/contact"
             className="inline-block bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transition"
           >
-            Contact Me
+            Contact Us
           </Link>
         </div>
       </section>

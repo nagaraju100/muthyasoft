@@ -18,7 +18,7 @@ export default function Videos() {
             <div className="text-6xl mb-6">📹</div>
             <h2 className="text-3xl font-bold mb-4">TechGeniusMinds</h2>
             <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">
-              Subscribe to my YouTube channel for regular tutorials on data engineering, Python, PySpark, cloud platforms, and more.
+              Subscribe to our YouTube channel for regular tutorials on data engineering, Python, PySpark, cloud platforms, and more.
             </p>
             <a
               href="https://www.youtube.com/@TechGeniusMinds"

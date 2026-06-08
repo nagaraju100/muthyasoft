@@ -76,26 +76,6 @@ export default function Footer() {
                   YouTube
                 </a>
               </li>
-              <li>
-                <a
-                  href="https://medium.com/@nagarajugajula100"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition"
-                >
-                  Medium
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/nagaraju-gajula-0a408427/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition"
-                >
-                  LinkedIn
-                </a>
-              </li>
             </ul>
           </div>
         </div>
