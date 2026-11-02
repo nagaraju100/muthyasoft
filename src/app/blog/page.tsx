@@ -4,21 +4,21 @@ export default function Blog() {
       {/* Hero */}
       <section className="bg-gradient-to-br from-violet-600 via-purple-600 to-fuchsia-600 text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-6">Blog & Articles</h1>
+          <h1 className="text-5xl font-bold mb-6">Blog & Insights</h1>
           <p className="text-xl text-blue-100">
-            In-depth articles on data engineering best practices and patterns
+            AI, data engineering patterns, and production lessons
           </p>
         </div>
       </section>
 
-      {/* Coming Soon Blog Section */}
+      {/* Blog Section */}
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg text-center">
             <div className="text-6xl mb-6">✍️</div>
             <h2 className="text-3xl font-bold mb-4">Technical Blog</h2>
             <p className="text-xl text-gray-700 dark:text-gray-300 mb-4">
-              Our engineering team is preparing in-depth articles covering data engineering best practices, real-world solutions, and lessons learned from production systems.
+              Articles on AI integration, data pipeline architecture, and lessons from production systems.
             </p>
             <p className="text-amber-600 dark:text-amber-400 font-semibold text-lg">
               Coming Soon
@@ -30,17 +30,17 @@ export default function Blog() {
       {/* Article Topics */}
       <section className="py-16 px-4 bg-gray-50 dark:bg-gray-900">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12">Topics We Cover</h2>
+          <h2 className="text-4xl font-bold text-center mb-12">Upcoming Topics</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              'Data Pipeline Architecture',
+              'RAG Pipeline Architecture',
+              'LLM Integration Patterns',
+              'AI-Ready Data Pipelines',
               'PySpark Optimization',
-              'Cloud Best Practices',
-              'ETL/ELT Patterns',
-              'Data Quality',
-              'Databricks Tips & Tricks',
-              'Airflow Orchestration',
-              'Performance Tuning',
+              'Cloud Data Architecture',
+              'Vector Databases in Practice',
+              'MCP for AI Agents',
+              'Data Quality at Scale',
               'Real-World Case Studies',
             ].map((topic) => (
               <div key={topic} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
@@ -54,9 +54,9 @@ export default function Blog() {
       {/* CTA */}
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Need Help with Implementation?</h2>
+          <h2 className="text-3xl font-bold mb-4">Need Help with AI or Data Engineering?</h2>
           <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">
-            Get personalized guidance to apply these concepts to your projects
+            Get expert guidance on your projects.
           </p>
           <a
             href="/contact"

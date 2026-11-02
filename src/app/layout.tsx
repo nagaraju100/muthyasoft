@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Muthya Soft - Data Engineering Expert",
-  description: "Data Engineering tutorials, blog posts, and personalized tutoring by Muthya Soft experts. Learn Python, PySpark, Databricks, Airflow, and cloud platforms from industry experts.",
+  description: "Data Engineering consulting, AI solutions, and technical blog by Muthya Soft. Python, PySpark, Databricks, Airflow, and cloud platforms from industry experts.",
 };
 
 export default function RootLayout({

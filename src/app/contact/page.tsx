@@ -19,7 +19,7 @@ export default function Contact() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Send Us a Message</h2>
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              Whether you're interested in tutoring, have questions about data engineering, or want to collaborate, we'd love to hear from you.
+              Whether you're interested in our services, have questions about data engineering, or want to collaborate, we'd love to hear from you.
             </p>
           </div>
           <ContactForm />
@@ -32,16 +32,16 @@ export default function Contact() {
           <h2 className="text-3xl font-bold text-center mb-12">Common Questions</h2>
           <div className="space-y-6">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
-              <h3 className="font-semibold text-lg mb-2">What topics do you cover in tutoring?</h3>
+              <h3 className="font-semibold text-lg mb-2">What technologies do you work with?</h3>
               <p className="text-gray-700 dark:text-gray-300">
-                We cover all aspects of modern data engineering including Python, PySpark, Databricks, Airflow, cloud platforms (AWS/GCP/Azure), and production best practices.
+                We work with Python, PySpark, Databricks, Apache Airflow, AWS, GCP, Azure, Kafka, Docker, Kubernetes, and Terraform across full-stack data engineering and AI solutions.
               </p>
             </div>
 
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
-              <h3 className="font-semibold text-lg mb-2">How are tutoring sessions conducted?</h3>
+              <h3 className="font-semibold text-lg mb-2">What types of services do you offer?</h3>
               <p className="text-gray-700 dark:text-gray-300">
-                Sessions are conducted online via video call, allowing for screen sharing and hands-on coding. We'll work together on real-world problems tailored to your goals.
+                We offer data pipeline development, cloud migration, technical consulting, AI automation, and code review services. Visit our Services page for details on each offering.
               </p>
             </div>
 

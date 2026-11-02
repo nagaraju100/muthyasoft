@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Muthya Soft</h3>
             <p className="text-gray-400">
-              Data Engineering Expert & Tutor
+              Data Engineering Consulting &amp; AI Solutions
             </p>
           </div>
 
@@ -25,11 +25,6 @@ export default function Footer() {
               <li>
                 <Link href="/services" className="text-gray-400 hover:text-white transition">
                   Services
-                </Link>
-              </li>
-              <li>
-                <Link href="/tutoring" className="text-gray-400 hover:text-white transition">
-                  Tutoring
                 </Link>
               </li>
               <li>

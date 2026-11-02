@@ -21,10 +21,10 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/tutoring"
+              href="/contact"
               className="inline-block bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transition"
             >
-              Start Learning
+              Get Started
             </Link>
             <Link
               href="/contact"
@@ -41,20 +41,12 @@ export default function Home() {
       <section className="py-16 px-4 bg-white dark:bg-slate-900">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12">What We Offer</h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             <Link href="/services" className="group bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-blue-100 dark:border-blue-800 hover:scale-105">
               <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">💼</div>
               <h3 className="text-2xl font-bold mb-3 text-blue-700 dark:text-blue-300">Services</h3>
               <p className="text-gray-700 dark:text-gray-300">
-                Professional data engineering services including pipeline development, consulting, and cloud migration.
-              </p>
-            </Link>
-
-            <Link href="/tutoring" className="group bg-gradient-to-br from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-purple-100 dark:border-purple-800 hover:scale-105">
-              <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🎓</div>
-              <h3 className="text-2xl font-bold mb-3 text-purple-700 dark:text-purple-300">Tutoring</h3>
-              <p className="text-gray-700 dark:text-gray-300">
-                Personalized 1-on-1 tutoring for data engineering topics. Learn at your own pace with industry-tested knowledge.
+                Professional data engineering services including pipeline development, consulting, cloud migration, and AI solutions.
               </p>
             </Link>
 
@@ -91,9 +83,9 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-16 px-4 bg-white dark:bg-slate-900">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Level Up Your Skills?</h2>
+          <h2 className="text-4xl font-bold mb-6">Ready to Get Started?</h2>
           <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">
-            Join students who are mastering data engineering with personalized guidance from an industry expert.
+            Let's discuss how we can help you achieve your data engineering goals.
           </p>
           <Link
             href="/contact"

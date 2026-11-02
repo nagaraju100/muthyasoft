@@ -6,7 +6,7 @@ export default function About() {
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">About Muthya Soft</h1>
           <p className="text-xl text-blue-100">
-            Enterprise-level Data Engineering Expertise & Practical Mentorship
+            AI-powered solutions and enterprise data engineering
           </p>
         </div>
       </section>
@@ -15,53 +15,53 @@ export default function About() {
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
-            <h2 className="text-3xl font-bold mb-4">Our Expertise</h2>
+            <h2 className="text-3xl font-bold mb-4">What We Do</h2>
             <p className="text-lg mb-6 text-gray-700 dark:text-gray-300">
-              Muthya Soft is dedicated to empowering engineers with production-grade data skills. Our instructors bring over a decade of real-world experience building large-scale data platforms for enterprise companies.
+              Muthya Soft helps organizations build intelligent, AI-ready data infrastructure. We combine deep data engineering expertise with modern AI/LLM integration to deliver production-grade solutions at enterprise scale.
             </p>
 
             <div className="space-y-6 text-gray-700 dark:text-gray-300">
+
               <div>
-                <h3 className="font-semibold text-xl mb-3">Enterprise Industry Experience</h3>
+                <h3 className="font-semibold text-xl mb-3">AI Services</h3>
                 <ul className="space-y-2 ml-4 list-disc">
-                  <li>Data Engineering & Pipeline Design for <strong>Global Investment Banks</strong></li>
-                  <li>Solution Architecture & Consulting for <strong>Leading Analytics firms</strong></li>
-                  <li>Data Infrastructure Design for <strong>Industrial Automation leaders</strong></li>
-                  <li>Software & Platform Engineering at <strong>Semiconductor Pioneers</strong></li>
+                  <li><strong>LLM Integration</strong> — OpenAI, Claude, open-source models</li>
+                  <li><strong>RAG Pipelines</strong> — Knowledge retrieval and document AI</li>
+                  <li><strong>AI Product Development</strong> — Full-stack AI-powered applications</li>
+                  <li><strong>AI Agents & Workflows</strong> — Orchestration and automation</li>
+                  <li><strong>Vector Databases</strong> — Pinecone, Weaviate, pgvector</li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="font-semibold text-xl mb-3">Technical Domain Focus</h3>
-                <div className="grid md:grid-cols-2 gap-4">
-                  <div>
-                    <h4 className="font-semibold mb-2">Core Technologies</h4>
-                    <ul className="ml-4 space-y-1">
-                      <li>• Python & SQL</li>
-                      <li>• PySpark & Spark</li>
-                      <li>• Apache Airflow</li>
-                      <li>• Databricks</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-2">Cloud Platforms</h4>
-                    <ul className="ml-4 space-y-1">
-                      <li>• Amazon Web Services</li>
-                      <li>• Google Cloud Platform</li>
-                      <li>• Microsoft Azure</li>
-                    </ul>
-                  </div>
-                </div>
+                <h3 className="font-semibold text-xl mb-3">Data Engineering</h3>
+                <ul className="space-y-2 ml-4 list-disc">
+                  <li><strong>Pipeline Design</strong> — ETL/ELT, streaming, batch processing</li>
+                  <li><strong>Cloud Architecture</strong> — AWS, GCP, Azure modernization</li>
+                  <li><strong>Performance Optimization</strong> — PySpark, Spark, distributed systems</li>
+                  <li><strong>Data Observability</strong> — Quality checks, monitoring, alerting</li>
+                  <li><strong>Infrastructure as Code</strong> — Terraform, CloudFormation</li>
+                </ul>
               </div>
 
               <div>
-                <h3 className="font-semibold text-xl mb-3">Why Work With Us?</h3>
+                <h3 className="font-semibold text-xl mb-3">Enterprise Track Record</h3>
                 <ul className="space-y-2 ml-4 list-disc">
-                  <li><strong>Real Production Experience</strong> - We teach patterns built for handling terabytes of data at enterprise scale</li>
-                  <li><strong>Deep Technical Knowledge</strong> - Over 10 years working with modern data engineering stack</li>
-                  <li><strong>Industry-Tested Practices</strong> - Focus on what actually works in production environments, not just code snippets</li>
+                  <li>Global investment banks — large-scale data platforms</li>
+                  <li>Leading analytics consultancies — full-stack consulting</li>
+                  <li>Semiconductor and industrial automation — data infrastructure</li>
                 </ul>
               </div>
+
+              <div>
+                <h3 className="font-semibold text-xl mb-3">Why Muthya Soft?</h3>
+                <ul className="space-y-2 ml-4 list-disc">
+                  <li><strong>Production-First</strong> — Solutions built for real-world scale, not demos</li>
+                  <li><strong>AI-Ready Data</strong> — Infrastructure designed for the AI era</li>
+                  <li><strong>10+ Years</strong> — Enterprise experience across multiple industries</li>
+                </ul>
+              </div>
+
             </div>
           </div>
         </div>
@@ -70,9 +70,9 @@ export default function About() {
       {/* CTA */}
       <section className="py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Learn?</h2>
+          <h2 className="text-3xl font-bold mb-4">Let's Build Something Together</h2>
           <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">
-            Let's discuss how we can help you achieve your data engineering goals.
+            From data infrastructure to AI integration — let's discuss your project.
           </p>
           <a
             href="/contact"
